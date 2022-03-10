@@ -13,9 +13,8 @@ Different and similar versions of GarraBot Core Libraries are currently included
 Robot  | Library can use
 ------------- | -------------
 GarraBot | GarraBot
-GarraBot+  | GarraBot
 GarraBot Eyes  | GarraBot
-W (Wheels)  | GarraBot
+GarraBot Wheels  | GarraBot
 
 To resolve the need to maintain so many different deployments/versions here in this centralized repository, in order to maintin consistency along the GarraBot remixes we stablished a naming structure: 
 GarraBot_(followed by the component name and version) for example:
