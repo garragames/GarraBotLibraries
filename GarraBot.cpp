@@ -11,8 +11,12 @@
 
 #include "GarraBot.h"
 
-void GarraBot::init(int YL, int YR, int RL, int RR, bool load_calibration, int NoiseSensor, int Buzzer, int USTrigger, int USEcho) {
-//void GarraBot::init(int YL, int YR, int RL, int RR, bool load_calibration, int NoiseSensor) {
+//void GarraBot::init(int YL, int YR, int RL, int RR, bool load_calibration, int NoiseSensor, int Buzzer, int USTrigger, int USEcho) {
+void GarraBot::init(int YL, int YR, int RL, int RR, bool load_calibration, int NoiseSensor) {
+
+  int USTrigger =  8;
+  int USEcho    =  9;
+  int Buzzer    = 13;
   
   servo_pins[0] = YL;
   servo_pins[1] = YR;

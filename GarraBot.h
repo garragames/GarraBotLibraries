@@ -35,8 +35,8 @@ class GarraBot
   public:
 
     //-- GarraBot initialization
-    void init(int YL, int YR, int RL, int RR, bool load_calibration, int NoiseSensor, int Buzzer, int USTrigger, int USEcho);
-    //void init(int YL, int YR, int RL, int RR, bool load_calibration, int NoiseSensor);
+    //void init(int YL, int YR, int RL, int RR, bool load_calibration, int NoiseSensor, int Buzzer, int USTrigger, int USEcho);
+    void init(int YL, int YR, int RL, int RR, bool load_calibration, int NoiseSensor);
     void initDC(int NoiseSensor, int Buzzer, int USTrigger, int USEcho);
     //-- Attach & detach functions
     void attachServos();
